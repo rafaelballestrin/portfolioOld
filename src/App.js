@@ -10,9 +10,8 @@ class App extends Component {
       <Router>
         <div>
           <div className="App">
-            <h1>Hello, my name is Rafael. I'm a Front End Developer living in London, UK.</h1>
             <Route exact path='/' component={Gallery} />
-            <Route exact path='/details' component={Details} />
+            <Route exact path='/:details' component={Details} />
           </div>
         </div>
       </Router>
