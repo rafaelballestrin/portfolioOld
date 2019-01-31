@@ -12,6 +12,25 @@
  .item {
    flex: 1;
    padding: 30px;
+   position: relative;
+   overflow: hidden;
+ }
+
+ .overlay {
+   /*display: none;*/
+   transition: bottom ease 1s;
+   position: absolute;
+   bottom: -100px;
+   left: 0;
+   width: 100%;
+   color: white;
+   background-color: black;
+   opacity: 0.8;
+ }
+
+ .item:hover .overlay {
+   bottom: 0;
+   display: block;
  }
 
  @media only screen and (max-width: 600px) {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import front from './images/front.png';
+import Stack from './Stack';
 import about from './images/about.svg';
 import projects from './images/projects.svg';
 import contact from './images/contact.svg';
@@ -13,11 +13,12 @@ class App extends Component {
           <h1>Hello, my name is Rafael. I'm a Front End Developer living in London, UK.</h1>
         </div>
         <div className='container'>
-          <div className='item'><img src={about} alt='about' /></div>
-          <div className='item'><img src={projects} alt='projects' /></div>
-          <div className='item'><img src={contact} alt='contact' /></div>
+          <Stack name='About me' logo={about} />
+          <Stack name='Projects' logo={projects} />
+          <Stack name='Contact' logo={contact} />
         </div>
       </div>
+
     );
   }
 }
