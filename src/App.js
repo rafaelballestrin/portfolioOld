@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import front from './images/front.png';
-import logo from './images/rbLogo.png';
+import about from './images/about.svg';
+import projects from './images/projects.svg';
+import contact from './images/contact.svg';
 import './App.css';
 
 class App extends Component {
@@ -8,14 +10,12 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-          <div className='logo'>
-            <img src={logo} alt='logo'></img>
-          </div>
-          <div>
-            <h4>Home  Projects  Contact</h4>
-          </div>
           <h1>Hello, my name is Rafael. I'm a Front End Developer living in London, UK.</h1>
-          <div className='logo'><img src={front} alt='front end' /></div>
+        </div>
+        <div className='container'>
+          <div className='item'><img src={about} alt='about' /></div>
+          <div className='item'><img src={projects} alt='projects' /></div>
+          <div className='item'><img src={contact} alt='contact' /></div>
         </div>
       </div>
     );
