@@ -18,3 +18,11 @@ export default function Gallery() {
     </div>
   )
 }
+
+function getGallery() {
+  return [
+    {id: 'aboutme',  name: 'About Me', logo: about },
+    {id: 'projects', name: 'Projects', logo: projects},
+    {id: 'contact', name: 'Contact', logo: contact},
+  ]
+}
