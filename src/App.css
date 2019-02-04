@@ -1,17 +1,29 @@
+.Page {
+  background: #143C53;
+}
 .App {
   text-align: center;
+  color: #143C53;
+  background: white;
+  padding: 0%;
+  width: 80%;
+  margin: 5% auto;
+  border-radius: 10px;
 }
  img {
-  width: 70%;
+  width: 100%;
  }
 
  .container {
    display: flex;
+   background: white;
+   margin: 0px;
+   border-radius: 10px;
  }
 
  .item {
    flex: 1;
-   padding: 30px;
+   padding: 5%;
    position: relative;
    overflow: hidden;
  }
@@ -24,8 +36,8 @@
    left: 0;
    width: 100%;
    color: white;
-   background-color: black;
-   opacity: 0.8;
+   background-color: #4C94C2;
+   opacity: 1;
  }
 
  .item:hover .overlay {
