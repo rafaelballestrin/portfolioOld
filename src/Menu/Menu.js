@@ -1,8 +1,8 @@
 import React from 'react';
-import Stack from './Stack';
-import about from './images/about.svg';
-import projects from './images/projects.svg';
-import contact from './images/contact.svg';
+import Stack from '../Stack';
+import about from '../images/about.svg';
+import projects from '../images/projects.svg';
+import contact from '../images/contact.svg';
 
 export default function Gallery() {
   return (
