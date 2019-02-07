@@ -1,0 +1,16 @@
+.HomeContent {
+    background: white;
+}
+.wrap {
+    width: 100%;
+}
+
+.left{
+    width: 50%;
+    float: left;
+}
+
+.right{
+    width: 50%;
+    float: right;
+}
