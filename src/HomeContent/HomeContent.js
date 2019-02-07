@@ -9,7 +9,7 @@ export default function HomeContent() {
             <div className='wrap'>
                 <div className='left'>
                     <h3>Home Content</h3>
-                    <h4>I'm a Front-end Developer living in London</h4>
+                    <h4>I'm a Front-end Developer living in London!</h4>
                 </div>
                 <div className='right'>
                     <img src={ComputerImg} alt='' />
