@@ -16,10 +16,10 @@ export default function Gallery() {
   )
 }
 
-function getGallery() {
-  return [
-    {id: 'aboutme',  name: 'About Me', logo: about },
-    {id: 'projects', name: 'Projects', logo: projects},
-    {id: 'contact', name: 'Contact', logo: contact},
-  ]
-}
+// function getGallery() {
+//   return [
+//     {id: 'aboutme',  name: 'About Me', logo: about },
+//     {id: 'projects', name: 'Projects', logo: projects},
+//     {id: 'contact', name: 'Contact', logo: contact},
+//   ]
+// }

@@ -11,7 +11,7 @@ export default class Details extends Component {
   }
 
   componentDidMount() {
-    let galleryId = this.props.match.params.galleryId;
+    // let galleryId = this.props.match.params.galleryId;
 
   }
 
