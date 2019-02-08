@@ -1,9 +1,10 @@
 import React from 'react';
 import ComputerImg from '../images/computerDev.svg';
+import './HomeContent.css'
 
 export default function HomeContent() {
     return (
-        <div className='HomeContent'>
+        
             <div className='wrap'>
                 <div className='left'>
                     <h3>Home Content</h3>
@@ -13,6 +14,6 @@ export default function HomeContent() {
                     <img src={ComputerImg} alt='' />
                 </div>
             </div>
-        </div>
+        
     )
 }

@@ -14,11 +14,11 @@
   width: 80%;
  }
 
- .container {
+ .menu {
    display: flex;
    background: #FFFFFF;
    margin: 0% 0% 0% auto;
-   border-radius: 10px;
+   border-radius: 10px 10px 0px 0px;
    width: 40%;
  }
 
@@ -46,12 +46,8 @@
    display: block;
  }
 
- .HomeContent {
-   padding: 0px 0px 10px 0px; 
- }
-
  @media only screen and (max-width: 600px) {
-  .container {
+  .menu {
     flex-direction: column;
   }
 }

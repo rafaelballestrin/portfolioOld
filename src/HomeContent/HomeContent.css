@@ -1,16 +1,19 @@
-.HomeContent {
-    background: white;
-}
+
 .wrap {
     width: 100%;
+    overflow: hidden;
 }
 
 .left{
     width: 50%;
     float: left;
+    background: white;
+    /*border-radius: 0px 0px 0px 10px;*/
 }
 
 .right{
     width: 50%;
     float: right;
+    background: white;
+    /*border-radius: 0px 0px 10px 0px;*/
 }
