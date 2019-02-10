@@ -2,18 +2,24 @@
 .wrap {
     width: 100%;
     overflow: hidden;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/homeBg.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
 }
 
 .left{
     width: 50%;
     float: left;
-    background: white;
+    background: none;
+    color: white;
     /*border-radius: 0px 0px 0px 10px;*/
 }
 
 .right{
     width: 50%;
     float: right;
-    background: white;
-    /*border-radius: 0px 0px 10px 0px;*/
+    background: none;
+    border-radius: 0px 0px 10px 0px;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter, Route } from 'react-router-dom';
+
 import Menu from './Menu/Menu';
 import Details from './Details';
 import HomeContent from './HomeContent/HomeContent.js';
