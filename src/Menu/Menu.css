@@ -1,9 +1,15 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(0, 0, 0);
+    width: 50%;
   }
 
 .menuItem {
@@ -19,8 +25,22 @@
   }
   
 .menuItem a:hover {
-    background-color: #111;
+    color: #42B6F6;
   }
+
+.icons {
+  background-color: rgba(0, 0, 0);
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.iconsItem img{
+  padding: 5%;
+  width: 25%;
+  float: right;
+  align-items: right;
+}
 
 /*.menu {
     display: flex;

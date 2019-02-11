@@ -1,5 +1,4 @@
 import React from 'react';
-import HomeBg from '../images/homeBg.jpg'
 import './HomeContent.css';
 
 
